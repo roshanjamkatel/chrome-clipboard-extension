@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Quick Notes",
+  "description": "This extension allows quick notes to be added to the toolbar for ease-of-use.",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "icons": {
+    "16": "logo-small.png",
+    "48": "logo-small.png",
+    "128": "logo-small.png"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-ELkDE2InNI702G86lymxXYBdrcJq5bMn8+PhTgN6cks='; object-src 'se;f'", "permissions":[]
+}
