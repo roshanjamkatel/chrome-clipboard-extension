@@ -18,6 +18,7 @@ function outFunc() {
   tooltip.innerHTML = "Copy to clipboard";
 }
 
+
 function App() {
   return (
     <div className="App">
@@ -29,21 +30,46 @@ function App() {
           Quick and easy access clipboard at your service!
         </p>
 
+        <form>
         <input 
         type="text" 
-        value="Test" 
+        defaultValue="" 
         id="input"
+        autoComplete = "off"
         />
 
+        <input 
+        type="text" 
+        defaultValue="" 
+        id="input"
+        autoComplete = "off"
+        />
+        <input 
+        type="text" 
+        defaultValue="" 
+        id="input"
+        autoComplete = "off"
+        />
+        <input 
+        type="text" 
+        defaultValue="" 
+        id="input"
+        autoComplete = "off"
+        />
+        <input 
+        type="text" 
+        defaultValue="" 
+        id="input"
+        autoComplete = "off"
+        />
+        <input 
+        type="text" 
+        defaultValue="" 
+        id="input"
+        autoComplete = "off"
+        />
+        </form>
         
-        <div className="tooltip">
-          <button onclick="myFunction()" onmouseout="outFunc()">
-            <span className="tooltiptext" id="myTooltip">Copy to clipboard</span>
-            Copy text
-          </button>
-        </div>
-        
-
       </header>
     </div>
   );

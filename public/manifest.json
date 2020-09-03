@@ -14,5 +14,6 @@
     "48": "logo-small.png",
     "128": "logo-small.png"
   },
-  "content_security_policy": "script-src 'self' 'sha256-ELkDE2InNI702G86lymxXYBdrcJq5bMn8+PhTgN6cks='; object-src 'se;f'", "permissions":[]
+  "content_security_policy": "script-src 'self' 'sha256-ELkDE2InNI702G86lymxXYBdrcJq5bMn8+PhTgN6cks='; object-src 'se;f'", 
+  "permissions":[ "tabs","storage"  ]
 }
